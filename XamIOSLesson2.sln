@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamIOSLesson2", "XamIOSLesson2\XamIOSLesson2.csproj", "{C76282C8-1AB7-4DEE-8C25-E1E31AAB5A61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C76282C8-1AB7-4DEE-8C25-E1E31AAB5A61}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C76282C8-1AB7-4DEE-8C25-E1E31AAB5A61}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C76282C8-1AB7-4DEE-8C25-E1E31AAB5A61}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C76282C8-1AB7-4DEE-8C25-E1E31AAB5A61}.Release|iPhone.Build.0 = Release|iPhone
+		{C76282C8-1AB7-4DEE-8C25-E1E31AAB5A61}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C76282C8-1AB7-4DEE-8C25-E1E31AAB5A61}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{C76282C8-1AB7-4DEE-8C25-E1E31AAB5A61}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C76282C8-1AB7-4DEE-8C25-E1E31AAB5A61}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal

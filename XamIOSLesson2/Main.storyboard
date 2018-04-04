@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.12156862745098039" green="0.55686274509803924" blue="0.996078431372549" alpha="1"/>
+                            <mask key="subviews">
+                                <include reference="404"/>
+                                <include reference="433"/>
+                                <include reference="441"/>
+                                <include reference="449"/>
+                                <include reference="471"/>
+                                <include reference="577"/>
+                                <include reference="613"/>
+                                <include reference="670"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="1441"/>
+                                <include reference="1442"/>
+                                <include reference="1893"/>
+                                <include reference="1894"/>
+                                <include reference="1922"/>
+                                <include reference="1923"/>
+                                <include reference="1931"/>
+                                <include reference="1932"/>
+                                <include reference="1940"/>
+                                <include reference="1941"/>
+                                <include reference="2822"/>
+                                <include reference="2823"/>
+                                <include reference="2839"/>
+                                <include reference="2840"/>
+                                <include reference="3200"/>
+                                <include reference="3201"/>
+                            </mask>
+                        </variation>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="404" translatesAutoresizingMaskIntoConstraints="NO" placeholder="12.600.890-3">
+                                <rect key="frame" x="30" y="98" width="278" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="1050" firstAttribute="width" constant="278"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1050"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1050"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="433" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Ingrese Nombre">
+                                <rect key="frame" x="30" y="168" width="312" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="2824" firstAttribute="width" constant="312"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2824"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="2824"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="441" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Ingrese Apellido">
+                                <rect key="frame" x="30" y="232" width="312" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="2841" firstAttribute="width" constant="312"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2841"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="2841"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="449" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="56" y="416" width="324" height="288"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <constraints>
+                                    <constraint id="1443" firstAttribute="width" constant="324"/>
+                                    <constraint id="1444" firstAttribute="height" constant="288"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1443"/>
+                                        <exclude reference="1444"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1443"/>
+                                        <include reference="1444"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="471" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="30" y="287" width="312" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17" weight="heavy"/>
+                                <state key="normal" title="Traspasar Informacion">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                    <mask key="constraints">
+                                        <include reference="3202"/>
+                                        <include reference="3203"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="BotonTraspasar_TouchUpInside:" destination="BYZ-38-t0r" id="798" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="3202" firstAttribute="width" constant="312"/>
+                                    <constraint id="3203" firstAttribute="height" constant="51"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3202"/>
+                                        <exclude reference="3203"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IDE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="577" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="30" y="69" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17" weight="semibold"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1942" firstAttribute="width" constant="42"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1942"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1942"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="613" translatesAutoresizingMaskIntoConstraints="NO" text="Nombre">
+                                <rect key="frame" x="30" y="144" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17" weight="semibold"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1070" firstAttribute="width" constant="90"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1070"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1070"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="670" translatesAutoresizingMaskIntoConstraints="NO" text="Apellido">
+                                <rect key="frame" x="30" y="206" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17" weight="semibold"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1080" firstAttribute="width" constant="90"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1080"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1080"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="404"/>
+                                <exclude reference="433"/>
+                                <exclude reference="441"/>
+                                <exclude reference="449"/>
+                                <exclude reference="471"/>
+                                <exclude reference="577"/>
+                                <exclude reference="613"/>
+                                <exclude reference="670"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="1441"/>
+                                <exclude reference="1442"/>
+                                <exclude reference="1893"/>
+                                <exclude reference="1894"/>
+                                <exclude reference="1922"/>
+                                <exclude reference="1923"/>
+                                <exclude reference="1931"/>
+                                <exclude reference="1932"/>
+                                <exclude reference="1940"/>
+                                <exclude reference="1941"/>
+                                <exclude reference="2822"/>
+                                <exclude reference="2823"/>
+                                <exclude reference="2839"/>
+                                <exclude reference="2840"/>
+                                <exclude reference="3200"/>
+                                <exclude reference="3201"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint id="1441" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="449" secondAttribute="trailing" constant="34"/>
+                            <constraint id="1442" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="449" secondAttribute="bottom" constant="32"/>
+                            <constraint id="1893" firstItem="404" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30"/>
+                            <constraint id="1894" firstItem="404" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="98"/>
+                            <constraint id="1922" firstItem="670" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30"/>
+                            <constraint id="1923" firstItem="670" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="206"/>
+                            <constraint id="1931" firstItem="613" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30"/>
+                            <constraint id="1932" firstItem="613" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="144"/>
+                            <constraint id="1940" firstItem="577" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30"/>
+                            <constraint id="1941" firstItem="577" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="69"/>
+                            <constraint id="2822" firstItem="433" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30"/>
+                            <constraint id="2823" firstItem="433" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="168"/>
+                            <constraint id="2839" firstItem="441" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30"/>
+                            <constraint id="2840" firstItem="441" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="232"/>
+                            <constraint id="3200" firstItem="471" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30"/>
+                            <constraint id="3201" firstItem="471" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="287"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="botonTraspasar" destination="471" id="name-outlet-471"/>
+                        <outlet property="TextIDE" destination="404" id="name-outlet-404"/>
+                        <outlet property="TextNombre" destination="433" id="name-outlet-433"/>
+                        <outlet property="TextApellido" destination="441" id="name-outlet-441"/>
+                        <outlet property="TextArea" destination="449" id="name-outlet-449"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina55"/>
+    </simulatedMetricsContainer>
+</document>
